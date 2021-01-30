@@ -1,23 +1,35 @@
 import React from "react";
+import { Link, Route, Switch } from "react-router-dom";
+import MovementData from "./Components/MovementData";
 import "./css/app.css";
-import Data from "./data.json";
+import CounterLocations from "./Components/CounterLocation";
+import CollatedData from "./Components/CollatedData";
 
 function App() {
-  console.log(Data);
   return (
     <React.Fragment>
       <div className="app">
-        <div className="movementData">
-          {Data.map((d, i) => {
-            return (
-              <>
-                <h4 key={Data[i].measurementSiteReference}>
-                  Data is: {Data[i].measurementSiteReference}
-                </h4>
-              </>
-            );
-          })}
-        </div>
+        <Link to="/movement-data">
+          <button>Traffic Movement Data</button>
+        </Link>
+        <Link to="/counter-location-data">
+          <button>Counter Location Data</button>
+        </Link>
+        <Link to="/collated-data">
+          <button>Collated Data</button>
+        </Link>
+
+        <Switch>
+          <Route path="/movement-data">
+            <MovementData />
+          </Route>
+          <Route path="/counter-location-data">
+            <CounterLocations />
+          </Route>
+          <Route path="/collated-data">
+            <CollatedData />
+          </Route>
+        </Switch>
       </div>
     </React.Fragment>
   );

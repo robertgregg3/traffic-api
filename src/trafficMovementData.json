@@ -1,0 +1,1962 @@
+[
+    {
+      "measurementSiteReference": "GH020A_B",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "18"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "TrafficConcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GJ3301_D",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "8"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GH020A_A",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "18"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GJ3301_C",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "9"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GJ3301_B",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "3"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GJ3301_A",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "15"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GC2381_T",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GC2381_S",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GC2381_R",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GD2701_D",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GD2701_B",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GD2701_A",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GF0301_D",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GF0301_C",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GJ275A_V",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "18"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GF0301_B",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GC4151_E",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "71"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "2"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GC4151_C",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "7"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GC4151_A",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GH195A_B",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GH195A_A",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GB0501_D",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "21"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GB0501_A",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "13"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GA2801_G",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GG1101_T",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GG1101_S",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GG1101_R",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GA2801_B",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GA2801_A",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GH3301_D",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "5"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GH3301_B",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "11"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GH3301_A",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "14"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GC1301_V",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "2"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GC1301_T",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "18"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GC1301_S",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "5"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GC1301_R",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "10"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GG012A_S",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GG012A_R",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GH1001_E",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "12"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GH1001_D",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "6"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GH1001_C",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "5"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GH1001_B",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "14"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GH1001_A",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "8"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GK0351_V",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "40"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GK0351_T",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "30"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GK0351_R",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "16"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GB1301_X",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GB1301_V",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "9"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GH002A_S",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "40"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GB1301_T",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "16"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GH002A_R",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "22"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GB1301_R",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GJ3551_W",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GJ3551_V",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GJ3551_T",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GC0321_F",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "4"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GC0321_D",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "6"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GC0321_B",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "7"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GC0321_A",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "4"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GA1301_P",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "13"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GL1151_D",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GA1301_G",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "9"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GL1151_C",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GD200A_S",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "18"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GL1151_B",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GD200A_R",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "14"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GL1151_A",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GA1301_A",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "10"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GD0651_S",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "36"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GD0651_R",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "31"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GH312A_D",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "20"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GB0751_V",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "35"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GB0751_T",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "33"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GB0751_S",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "26"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GA4401_Y",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "7"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GA4401_N",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "22"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GJ290A_M",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "18"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GA4401_M",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "12"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GL2801_S",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GL2801_R",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GC155A_A",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "18"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GG267A_B",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "19"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GG267A_A",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "13"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GA2101_C",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GA2101_A",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GK5141_R",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "9"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "13"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GB1551_T",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GL1821_V",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "10"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GB1551_S",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GD1451_F",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "9"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GL1821_S",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "35"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GL1821_R",
+      "measurementTimeDefault": "2021-01-30T11:55:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "36"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GD1451_D",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "66"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GI0601_W",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GI0601_V",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GG2151_V",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "15"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "4"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GI0601_T",
+      "measurementTimeDefault": "2021-01-30T11:55:10",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    },
+    {
+      "measurementSiteReference": "GG2151_T",
+      "measurementTimeDefault": "2016-07-27T09:30:11",
+      "measuredValue": [
+        {
+          "@index": "1",
+          "basicDataValue": {
+            "@xsi$type": "TrafficFlow",
+            "vehicleFlow": "0"
+          }
+        },
+        {
+          "@index": "2",
+          "basicDataValue": {
+            "@xsi$type": "Trafficconcentration",
+            "concentration": "0"
+          }
+        }
+      ]
+    }
+  ]

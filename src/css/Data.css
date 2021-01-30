@@ -1,0 +1,23 @@
+.data {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.data > ul {
+  list-style: none;
+}
+
+.data > ul > li {
+  display: flex;
+}
+
+.data > ul > li > h4 {
+  margin-right: 10px;
+}
+
+.data__container {
+  border: 1px solid #cccccc80;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
