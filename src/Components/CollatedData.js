@@ -19,7 +19,6 @@ function CollatedData() {
       .flat()
       .map((m, i) => Object.assign(m, MovementDataJson[i]));
     setCollatedData(newData);
-    console.log(collatedData);
   };
 
   return (

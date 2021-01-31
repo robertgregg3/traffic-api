@@ -3,6 +3,8 @@ import "../css/DataDisplay.css";
 
 function DataDisplay({
   id,
+  trafficFlow,
+  trafficConcentration,
   fromDescription,
   toDescription,
   fromLat,
@@ -14,6 +16,10 @@ function DataDisplay({
     <div className="dataDisplay">
       <h4>ID:</h4>
       <p>{id}</p>
+      <h4>Traffic Flow:</h4>
+      <p>{trafficFlow}</p>
+      <h4>Traffic Concentration</h4>
+      <p>{trafficConcentration}</p>
       <h4>From (Description)</h4>
       <p>{fromDescription}</p>
       <h4>To (Description)</h4>
