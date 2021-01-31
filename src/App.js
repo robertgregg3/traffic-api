@@ -23,7 +23,7 @@ function App() {
           <button>Collated Data</button>
         </Link>
         <Link to="/data-map">
-          <button>Data Map</button>
+          <button>Counter Location Map</button>
         </Link>
 
         <Switch>
@@ -39,9 +39,9 @@ function App() {
           <Route path="/data-map">
             <WrappedMap
               googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyBoc_0417ZN1wx6QkdJOCFSwMQwmD4LBbE`}
-              loadingElement={<div style={{ height: "100vh" }} />}
-              containerElement={<div style={{ height: "400px" }} />}
-              mapElement={<div style={{ height: "100vh" }} />}
+              loadingElement={<div style={{ height: "80vh" }} />}
+              containerElement={<div style={{ height: "80vh" }} />}
+              mapElement={<div style={{ height: "80vh" }} />}
             />
           </Route>
         </Switch>

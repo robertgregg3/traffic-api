@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../css/Data.css";
 import CounterLocations from "../trafficCounterLocationData.json";
 
