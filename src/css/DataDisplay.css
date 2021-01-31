@@ -1,3 +1,21 @@
 .dataDisplay {
   display: flex;
+  height: 100px;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+
+.dataDisplay__item {
+  border: 1px solid #cccccc50;
+  min-width: 25%;
+  padding: 0.5rem;
+  flex: 1;
+}
+
+.dataDisplay__item > h4 {
+  font-size: 14px;
+}
+
+.dataDisplay__item > p {
+  font-size: 12px;
 }
