@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import { GoogleMap, Marker } from "react-google-maps";
 import CounterLocations from "../trafficCounterLocationData.json";
 import DataDisplay from "./DataDisplay";
-import redDot from "../images/redDot.svg";
+import redDot from "../images/red.png";
+import orangeDot from "../images/orange.png";
+import greenDot from "../images/green.png";
 import { mapStyles } from "./../mapStyles";
 import MovementDataJson from "../trafficMovementData.json";
 import CounterLocationsJson from "../trafficCounterLocationData.json";
@@ -25,6 +27,22 @@ function Map() {
       .map((m, i) => Object.assign(m, MovementDataJson[i]));
     setCollatedData(newData);
     console.log(collatedData[0]);
+  };
+
+  const handleIcon = (counter) => {
+    if (
+      counter.measuredValue &&
+      counter.measuredValue[0].basicDataValue.vehicleFlow >= 20
+    ) {
+      return greenDot;
+    } else if (
+      counter.measuredValue &&
+      counter.measuredValue[0].basicDataValue.vehicleFlow >= 10
+    ) {
+      return orangeDot;
+    } else {
+      return redDot;
+    }
   };
 
   return (
@@ -53,7 +71,7 @@ function Map() {
               setSelectedData(false);
             }}
             icon={{
-              url: redDot,
+              url: handleIcon(counter),
               scaledSize: new window.google.maps.Size(15, 15),
             }}
           />
