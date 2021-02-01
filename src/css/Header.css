@@ -7,8 +7,15 @@
 }
 
 .header__button {
-  width: 100%;
   width: 220px;
   padding: 1rem;
   margin: 0.5rem;
+  background-color: #e8f9f0;
+  border: 1px solid #99bba9;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header__button:hover {
+  background-color: #c6efd9;
 }

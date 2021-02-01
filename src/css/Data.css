@@ -21,3 +21,17 @@
   padding: 10px;
   border-radius: 5px;
 }
+
+.table {
+  font-size: 10px;
+  width: 100%;
+  padding: 1rem;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  padding: 0.2rem;
+}
