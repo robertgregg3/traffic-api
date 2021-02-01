@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/DataDisplay.css";
 
-function DataDisplay({
+const DataDisplay = ({
   id,
   trafficFlow,
   trafficConcentration,
@@ -11,29 +11,29 @@ function DataDisplay({
   fromLong,
   toLat,
   toLong,
-}) {
+}) => {
+  const DataItem = ({ name, value }) => {
+    return (
+      <div className="dataDisplay__item">
+        <h4>{name}:</h4>
+        <p>{value}</p>
+      </div>
+    );
+  };
+
   return (
     <div className="dataDisplay">
-      <h4>ID:</h4>
-      <p>{id}</p>
-      <h4>Traffic Flow:</h4>
-      <p>{trafficFlow}</p>
-      <h4>Traffic Concentration</h4>
-      <p>{trafficConcentration}</p>
-      <h4>From (Description)</h4>
-      <p>{fromDescription}</p>
-      <h4>To (Description)</h4>
-      <p>{toDescription}</p>
-      <h4>From (Lat)</h4>
-      <p>{fromLat}</p>
-      <h4>From (Long)</h4>
-      <p>{fromLong}</p>
-      <h4>To (Lat)</h4>
-      <p>{toLat}</p>
-      <h4>To (Long)</h4>
-      <p>{toLong}</p>
+      <DataItem name="ID" value={id} />
+      <DataItem name="Traffic Flow" value={trafficFlow} />
+      <DataItem name="Traffic Concentration" value={trafficConcentration} />
+      <DataItem name="fromDescription" value={fromDescription} />
+      <DataItem name="toDescription" value={toDescription} />
+      <DataItem name="fromLat" value={fromLat} />
+      <DataItem name="fromLong" value={fromLong} />
+      <DataItem name="toLat" value={toLat} />
+      <DataItem name="toLong" value={toLong} />
     </div>
   );
-}
+};
 
 export default DataDisplay;
