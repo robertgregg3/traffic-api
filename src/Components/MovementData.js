@@ -6,10 +6,6 @@ const movementData =
   MovementDataJson.d2LogicalModel.payloadPublication.siteMeasurements;
 
 function MovementData() {
-  useEffect(() => {
-    console.log(movementData[0]);
-  });
-
   return (
     <div className="data">
       {movementData.map((data) => (
