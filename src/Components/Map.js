@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { GoogleMap, Marker } from "react-google-maps";
-import CounterLocations from "../trafficCounterLocationData.json";
 import DataDisplay from "./DataDisplay";
 import redDot from "../images/red.png";
 import orangeDot from "../images/orange.png";
@@ -9,41 +8,87 @@ import { mapStyles } from "./../mapStyles";
 import MovementDataJson from "../trafficMovementData.json";
 import CounterLocationsJson from "../trafficCounterLocationData.json";
 
+import { fetchMovementData, fetchLocationData } from "../api";
+
+const locationData =
+  CounterLocationsJson.d2LogicalModel.payloadPublication.measurementSiteTable
+    .measurementSiteRecord;
+
+const movementData =
+  MovementDataJson.d2LogicalModel.payloadPublication.siteMeasurements;
+
 function Map() {
   const [selectedData, setSelectedData] = useState(false);
   const [collatedData, setCollatedData] = useState([]);
 
+  // If I had the access to the server I would've been able to use the realtime fetched data...
+  // Instead I'm using prefetched static JSON data...
   useEffect(() => {
-    getCollatedData(locationData, MovementDataJson);
+    const fetchData = async () => {
+      // const movementData = await fetchMovementData();
+      // const locationData = await fetchLocationData();
+
+      const collatedData = locationData
+        .map((locationPoint) => {
+          const movementDetails = movementData.find(
+            (movementPoint) =>
+              movementPoint.measurementSiteReference === locationPoint["@id"]
+          );
+
+          if (movementDetails) {
+            return {
+              id: movementDetails.measurementSiteReference,
+              measurementSiteLocation: locationPoint.measurementSiteLocation,
+              measuredValue: movementDetails.measuredValue,
+            };
+          }
+        })
+        .filter(Boolean);
+
+      setCollatedData(collatedData);
+    };
+
+    fetchData();
   }, []);
 
-  const locationData =
-    CounterLocationsJson.d2LogicalModel.payloadPublication.measurementSiteTable
-      .measurementSiteRecord;
-
-  const getCollatedData = (locationData, MovementDataJson) => {
-    const newData = locationData
-      .flat()
-      .map((m, i) => Object.assign(m, MovementDataJson[i]));
-    setCollatedData(newData);
-    console.log(collatedData[0]);
-  };
-
   const handleIcon = (counter) => {
-    if (
-      counter.measuredValue &&
-      counter.measuredValue[0].basicDataValue.vehicleFlow >= 20
-    ) {
+    if (counter.measuredValue[0].basicDataValue.vehicleFlow >= 20) {
       return greenDot;
-    } else if (
-      counter.measuredValue &&
-      counter.measuredValue[0].basicDataValue.vehicleFlow >= 10
-    ) {
+    } else if (counter.measuredValue[0].basicDataValue.vehicleFlow >= 10) {
       return orangeDot;
     } else {
       return redDot;
     }
   };
+
+  const renderDisplay = () => {
+    if (selectedData) {
+      const {
+        measuredValue,
+        measurementSiteLocation: {
+          tpeglinearLocation: { from, to },
+        },
+      } = selectedData;
+
+      return (
+        <div>
+          <DataDisplay
+            id={selectedData.id}
+            trafficFlow={measuredValue[0].basicDataValue.vehicleFlow}
+            trafficConcentration={measuredValue[1].basicDataValue.concentration}
+            fromDescription={from.name.descriptor.value}
+            toDescription={to.name.descriptor.value}
+            fromLat={parseFloat(from.pointCoordinates.latitude)}
+            toLat={parseFloat(to.pointCoordinates.latitude)}
+            fromLong={parseFloat(from.pointCoordinates.longitude)}
+            toLong={parseFloat(to.pointCoordinates.longitude)}
+          />
+        </div>
+      );
+    }
+  };
+
+  if (!collatedData.length) return "Data cannot be fetched.";
 
   return (
     <div>
@@ -53,7 +98,7 @@ function Map() {
         defaultOptions={{ styles: mapStyles }}>
         {collatedData.map((counter) => (
           <Marker
-            key={counter["@id"]}
+            key={counter.id}
             position={{
               lat: parseFloat(
                 counter.measurementSiteLocation.tpeglinearLocation.to
@@ -72,73 +117,11 @@ function Map() {
             }}
             icon={{
               url: handleIcon(counter),
-              scaledSize: new window.google.maps.Size(15, 15),
+              scaledSize: new window.google.maps.Size(10, 10),
             }}
           />
         ))}
-        {selectedData && (
-          <div>
-            <DataDisplay
-              id={selectedData["@id"]}
-              trafficFlow={
-                !selectedData.measuredValue
-                  ? ""
-                  : selectedData.measuredValue[0].basicDataValue.vehicleFlow
-              }
-              trafficConcentration={
-                !selectedData.measuredValue
-                  ? ""
-                  : selectedData.measuredValue[1].basicDataValue.concentration
-              }
-              fromDescription={
-                selectedData.measurementSiteLocation.tpeglinearLocation.from
-                  .name.descriptor.value
-              }
-              toDescription={
-                selectedData.measurementSiteLocation.tpeglinearLocation.to.name
-                  .descriptor.value
-              }
-              fromLat={parseFloat(
-                selectedData.measurementSiteLocation.tpeglinearLocation.from
-                  .pointCoordinates.latitude
-              )}
-              toLat={parseFloat(
-                selectedData.measurementSiteLocation.tpeglinearLocation.to
-                  .pointCoordinates.latitude
-              )}
-              fromLong={parseFloat(
-                selectedData.measurementSiteLocation.tpeglinearLocation.from
-                  .pointCoordinates.longitude
-              )}
-              toLong={parseFloat(
-                selectedData.measurementSiteLocation.tpeglinearLocation.to
-                  .pointCoordinates.longitude
-              )}
-            />
-          </div>
-        )}
-
-        {/* {selectedData && (
-          <InfoWindow
-            position={{
-              lat: parseFloat(
-                selectedData.measurementSiteLocation.tpeglinearLocation.to
-                  .pointCoordinates.latitude
-              ),
-              lng: parseFloat(
-                selectedData.measurementSiteLocation.tpeglinearLocation.to
-                  .pointCoordinates.longitude
-              ),
-            }}>
-            <div>
-              <h6>To: </h6>
-              {
-                selectedData.measurementSiteLocation.tpeglinearLocation.from
-                  .name.descriptor.value
-              }
-            </div>
-          </InfoWindow>
-        )} */}
+        {renderDisplay()}
       </GoogleMap>
     </div>
   );
