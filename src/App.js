@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import MovementData from "./Components/MovementData";
 import "./css/app.css";
-import CounterLocations from "./Components/CounterLocation";
+import CounterLocations from "./Components/CounterLocationData";
 import CollatedData from "./Components/CollatedData";
 import Map from "./Components/Map";
 import { withScriptjs, withGoogleMap } from "react-google-maps";

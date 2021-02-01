@@ -7,8 +7,7 @@ import greenDot from "../images/green.png";
 import { mapStyles } from "./../mapStyles";
 import MovementDataJson from "../trafficMovementData.json";
 import CounterLocationsJson from "../trafficCounterLocationData.json";
-
-import { fetchMovementData, fetchLocationData } from "../api";
+// import { fetchMovementData, fetchLocationData } from "../api";
 
 const locationData =
   CounterLocationsJson.d2LogicalModel.payloadPublication.measurementSiteTable
