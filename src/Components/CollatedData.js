@@ -2,33 +2,52 @@ import React, { useState, useEffect } from "react";
 import "../css/Data.css";
 import MovementDataJson from "../trafficMovementData.json";
 import CounterLocationsJson from "../trafficCounterLocationData.json";
+// import { fetchMovementData, fetchLocationData } from "../api";
+
+const locationData =
+  CounterLocationsJson.d2LogicalModel.payloadPublication.measurementSiteTable
+    .measurementSiteRecord;
+
+const movementData =
+  MovementDataJson.d2LogicalModel.payloadPublication.siteMeasurements;
 
 function CollatedData() {
   const [collatedData, setCollatedData] = useState([]);
 
   useEffect(() => {
-    getCollatedData(locationData, MovementDataJson);
+    // const fetchData = async () => {
+    // const movementData = await fetchMovementData();
+    // const locationData = await fetchLocationData();
+
+    const collatedData = locationData
+      .map((locationPoint) => {
+        const movementDetails = movementData.find(
+          (movementPoint) =>
+            movementPoint.measurementSiteReference === locationPoint["@id"]
+        );
+
+        if (movementDetails) {
+          return {
+            id: movementDetails.measurementSiteReference,
+            measurementSiteLocation: locationPoint.measurementSiteLocation,
+            measuredValue: movementDetails.measuredValue,
+          };
+        }
+      })
+      .filter(Boolean);
+
+    setCollatedData(collatedData);
+    // };
   }, []);
-
-  const locationData =
-    CounterLocationsJson.d2LogicalModel.payloadPublication.measurementSiteTable
-      .measurementSiteRecord;
-
-  const getCollatedData = (locationData, MovementDataJson) => {
-    const newData = locationData
-      .flat()
-      .map((m, i) => Object.assign(m, MovementDataJson[i]));
-    setCollatedData(newData);
-  };
 
   return (
     <div className="data">
       {collatedData &&
         collatedData.map((data) => (
-          <ul key={data["@id"]} className="data__container">
+          <ul key={data.id} className="data__container">
             <li>
               <h4>ID: </h4>
-              {data["@id"]}
+              {data.id}
             </li>
             <li>
               <h4>Measurement Site Reference:</h4>
