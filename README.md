@@ -33,6 +33,7 @@ Demonstrate your technical abilities by completing the following objectives:
 - I plotted the points on a Google map and added a hover element which shows the above details under the map.
 - I added some conditional logic to show coloured icons according to the traffic flow number. The low congestion = green, mid = orange, high = red. Please note that by adding custom icons that are just a few hundred Bytes caused a delay of the data showing of about 1-2 seconds. Using the standard Google markers was almost instant.
 - I added some buttons to show the raw data shoiuld that be your "thing".
+- I ran out of time to refactor some of the code so from a DX I would spend more time organising the files and refactoring the code
 
 ## Data validation and error handling
 
