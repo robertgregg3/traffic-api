@@ -41,6 +41,7 @@ function Map() {
               measuredValue: movementDetails.measuredValue,
             };
           }
+          return null;
         })
         .filter(Boolean);
 

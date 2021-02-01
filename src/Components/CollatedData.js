@@ -32,6 +32,8 @@ function CollatedData({ sortColumn, onSort }) {
             measurementSiteLocation: locationPoint.measurementSiteLocation,
             measuredValue: movementDetails.measuredValue,
           };
+        } else {
+          return null;
         }
       })
       .filter(Boolean);
